@@ -6,19 +6,25 @@ A collection of user stories you can choose from.  Stories inside of each priori
 
 > these are necessary for basic usability
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of consequences should occur]_
+- [ ] A user can access the app through internet.
+- [ ] A user can add todos in the list.
+- [ ] A user can see the added items.
+- [ ] A user can edit todos.
+- [ ] A user can remove todos.
+
 
 ## Should-Haves
 
 > these will complete the user experience, but are not necessary
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of consequences should occur]_
+- [ ] A user will know if a field left empty by mistake.
+- [ ] A user can delete all items at once.
+
 
 ## Could-Haves
 
 > would be really cool ... if there's time
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of consequences should occur]_
+- [ ] A user can add sub items for each item.
+- [ ] A user can add voice messages to todos.
+- [ ] A user can share todos with friends or colleagues.
