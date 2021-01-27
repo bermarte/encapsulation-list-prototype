@@ -3,27 +3,67 @@
 
 <head>
   <meta charset='utf8'>
-  <title></title>
+  <title>ToDoList</title>
 
-  <link href="./style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/style.css"/>
+  <link rel="stylesheet" href="css/flexboxgrid.css">
+  <link rel="stylesheet" href="css/fontawesome.css">
+  <link rel="stylesheet" href="css/all.css">
 
 </head>
 
 <body>
+ 
 
-  <main id='user-interface'>
-    <input id='list-name-input' />
-    <div id='lists'></div>
-  </main>
+<!--Main page-->
+<section id="page" class="todo-form">
+  <div class="container">
+    <div class="row center-xs center-sm center-md center-lg">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h2>
+          <span class="primary-text">My </span
+          ><span class="secondary-text">ToDo List</span>
+        </h2>
+        
+        <form>
+          <div>
+            <label for="title">Todo Title</label><br />
+            <input type="text" name="title" />
+          </div>
+          <div>
+            <label for="Description">Todo Description</label><br />
+            <input type="text" name="Description" />
+          </div>
+          <!-- <div>
+            <label for="list">Todo List</label><br />
+            <textarea name="list"></textarea>
+          </div> -->
+          <button type="submit" name="button">Add</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
 
-
-  <!-- load the frontend testing & reviewing dependencies -->
-  <script src='../lib/review-buttons.js' type='module'></script>
-  <script src='../lib/gremlins.js'></script>
-
-  <!-- test the app object -->
-  <script type='module' src='../src/init.js'></script>
 
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+-->
+
