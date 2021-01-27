@@ -40,7 +40,7 @@ We will make a simple TODO app to practice Object Oriented JavaScript. The final
 - [ ] Create milestones from user stories
 - [ ] Creaate labels from milestones
 - [ ] Create a User story diagram
-- [ ] Create a Figma file
+- [X] Create a [Figma](https://www.figma.com/file/3sV8V9uzPiZM1mu84wX2yl/Todo?node-id=0%3A1) file
 
 ---
 
