@@ -28,3 +28,7 @@ A collection of user stories you can choose from.  Stories inside of each priori
 - [ ] A user can add sub items for each item.
 - [ ] A user can add voice messages to todos.
 - [ ] A user can share todos with friends or colleagues.
+- [ ] A user can add items to a calendar.
+- [ ] A user can change the color of a todo.
+- [ ] A user can extend a todo to a range of consecutive days.
+- [ ] A todo can send a reminder to the user.

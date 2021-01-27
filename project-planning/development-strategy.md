@@ -47,27 +47,39 @@ We will make a simple TODO app to practice Object Oriented JavaScript. The final
 
 
 ### Create a backlog
-- _As a developer I want to understand what the project could do_
+- _As a developer I want to understand what the app could possibily do and play with different hypotheses_
+---
 ### Create a development strategy
-- _As a developer I want to understand what the project will do and what is my task_
-
+- _As a developer I want to understand what the app will do and what is my task in the group_
+---
 ### Create a project-board
 - _As a developer I want to use a board to communicate better with my team_
-
+---
 ### Create a wireframe
 - _As a developer I want to see how the app will look like_
 
 - _Create a wireframe on Figma_
+---
 ### Initialize Application
 
 - _As a user I want to see the initial page when I load the site_
 
 - _Load the page and the button to add a todo appears_
-
+---
 ### A user can access the app through internet
-- _As a user I want to see a demo of the project_
+- _As a user I want to see a live demo of the project_
 
-- _Enable GitHub page and make it visible on the repo_
+- _Enable GitHub page and make the link visible on the repo and on the README_
+---
+### HTML and CSS
+- _As a developer I want to create the UI elements and style the page_
+
+- _use the Figma reference to style the file `index.html` by editing the file `style.css`_
+---
+### Classes and Objects
+- _As a developer I want to create the classes and the objects to be used in the app_
+
+- _Create a class Todo containing the UI elements_
 ### A user can add todos in the list
 - _As a user I want to add a todo item by clicking a button_
 
@@ -80,21 +92,38 @@ We will make a simple TODO app to practice Object Oriented JavaScript. The final
 - _As a user I want to be able to change the text of the todo item_
 
 - _The text on top of the todo item can be edited and saved_
-
+---
 ### A user can remove todos
 
 - _As a user I want to be able to delete a single todo item_
 
 - _Add a button to remove the todo item where the button is attached to_
+---
 ### A user can delete all items at once
 
 - _As a user I want to be able to delete all todo items by clicking or selecting all the todo items at once_
 
 - _Add a button to remove all the todo items_
 -_Optionally make all the items selectable_
+---
 ### A user will know if a field left empty by mistake
 
 - _As a user I want to be able to be notified if a todo has no text in it_
 
 - _If the todo has no text, send a warning message_
+---
+### The team will debug the app
+- _As a developer I want to be test the app and fix the error we will find_
+
+- _check the consistency of HTML/CSS and JavaScript_
+---
+### A user will create unit-tests for the application
+- _As a developer, I want to implement unit tests_
+
+- _write unit-tests in JavaScript_
+---
+### A user will implement the logger function for the application
+- _As a developer, I want to log all the most important objects and functions used_
+
+- _mplement the logger function provided_
 
