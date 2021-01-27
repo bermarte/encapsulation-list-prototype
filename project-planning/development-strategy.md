@@ -33,10 +33,10 @@ We will make a simple TODO app to practice Object Oriented JavaScript. The final
 - [x] Use the backlog to create the Development Strategy
 - [x] Create a discussion in the repo
 - [x] Create a Group issue
-- [ ] Zoom session #2
-- [ ] Review together the documentation (NB check together the user stories)
+- [x] Zoom session #2
+- [x] Review together the documentation (NB check together the user stories)
 - [ ] Divide tasks/user stories
-- [ ] Create a project board
+- [x] Create a project board
 - [ ] Create milestones from user stories
 - [ ] Creaate labels from milestones
 - [ ] Create a User story diagram
@@ -69,9 +69,32 @@ We will make a simple TODO app to practice Object Oriented JavaScript. The final
 
 - _Enable GitHub page and make it visible on the repo_
 ### A user can add todos in the list
+- _As a user I want to add a todo item by clicking a button_
+
+- _Create a UI element add an event to it_
 ### A user can see the added items
+- _As a user I want to see the todo item added_
+
+- _Create an object `todo item` and add it to the UI_
 ### A user can edit todos
+- _As a user I want to be able to change the text of the todo item_
+
+- _The text on top of the todo item can be edited and saved_
+
 ### A user can remove todos
+
+- _As a user I want to be able to delete a single todo item_
+
+- _Add a button to remove the todo item where the button is attached to_
 ### A user can delete all items at once
-### A user can delete all items at once
+
+- _As a user I want to be able to delete all todo items by clicking or selecting all the todo items at once_
+
+- _Add a button to remove all the todo items_
+-_Optionally make all the items selectable_
 ### A user will know if a field left empty by mistake
+
+- _As a user I want to be able to be notified if a todo has no text in it_
+
+- _If the todo has no text, send a warning message_
+
