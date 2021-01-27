@@ -28,7 +28,7 @@ We will make a simple TODO app to practice Object Oriented JavaScript. The final
 - [x] Write a backlog (Tahmina)
 - [x] Write a development strategy (Bermarte)
 - [ ] Write a README (Patrick)
-- [ ]Write communication (Bermarte)
+- [ ] Write communication.md (Bermarte)
 
 - [x] Use the backlog to create the Development Strategy
 - [x] Create a discussion in the repo
