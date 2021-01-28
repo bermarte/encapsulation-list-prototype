@@ -1,6 +1,8 @@
 # Encapsulation-list-prototype
 
-The Encapsulation-list-prototype is the last group project of the Encapsulation module.
+The Encapsulation-list-prototype is the last group project of the Encapsulation module. We will make a simple TODO app to practice Object Oriented JavaScript.
+
+
 
 Group 5 is:
 
@@ -18,6 +20,8 @@ Group 5 is:
 [communication](https://github.com/bermarte/encapsulation-list-prototype/blob/master/project-planning/communication.md)  
 [discussion](https://github.com/bermarte/encapsulation-list-prototype/discussions/1)  
 [Development strategy](https://github.com/bermarte/encapsulation-list-prototype/blob/master/project-planning/development-strategy.md)
+
+ <img src="./public/assets/wireframe.png" alt="figma file" width="500"> 
 
 ---
 

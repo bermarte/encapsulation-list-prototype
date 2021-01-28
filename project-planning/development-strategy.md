@@ -14,7 +14,9 @@ We will make a simple TODO app to practice Object Oriented JavaScript. The final
 
 ## WIREFRAME
 
-![wireframe](./public/wireframe)
+ <img src="../public/assets/wireframe.png" alt="figma file" width="500"> 
+
+[wireframe file](../public/assets/wireframe.png)
 
 ---
 
@@ -27,20 +29,21 @@ We will make a simple TODO app to practice Object Oriented JavaScript. The final
 - [x] Clone repo locally
 - [x] Write a backlog (Tahmina)
 - [x] Write a development strategy (Bermarte)
-- [ ] Write a README (Patrick)
-- [ ] Write communication.md (Bermarte)
+- [x] Write a README (Patrick)
+- [x] Write communication.md (Bermarte)
 
 - [x] Use the backlog to create the Development Strategy
 - [x] Create a discussion in the repo
 - [x] Create a Group issue
 - [x] Zoom session #2
 - [x] Review together the documentation (NB check together the user stories)
-- [ ] Divide tasks/user stories
 - [x] Create a project board
-- [ ] Create milestones from user stories
-- [ ] Creaate labels from milestones
-- [ ] Create a User story diagram
 - [X] Create a [Figma](https://www.figma.com/file/3sV8V9uzPiZM1mu84wX2yl/Todo?node-id=0%3A1) file
+- [ ] Divide tasks/user stories (Tahmina)
+- [ ] Create milestones from user stories (Patrick)
+- [ ] Create labels from milestones (Patrick)
+- [ ] Create a User story diagram (Patrick?)
+
 
 ---
 
@@ -48,23 +51,34 @@ We will make a simple TODO app to practice Object Oriented JavaScript. The final
 
 ### Create a backlog
 - _As a developer I want to understand what the app could possibily do and play with different hypotheses_
+
+
+- _Fill in the file called `backlog.md` (Tahmina)_
 ---
 ### Create a development strategy
 - _As a developer I want to understand what the app will do and what is my task in the group_
+
+- _Fill in the file called `developmentstrategy.md` (Bermarte)_
+
+
 ---
 ### Create a project-board
 - _As a developer I want to use a board to communicate better with my team_
+
+- _As a developer I want to use a board as a reference_
+
+- _Create a project board in the repo and add the user stories to it (Patrick?)_
 ---
 ### Create a wireframe
 - _As a developer I want to see how the app will look like_
 
-- _Create a wireframe on Figma_
+- _Create a wireframe on Figma (Tahmina)_
 ---
 ### Initialize Application
 
 - _As a user I want to see the initial page when I load the site_
 
-- _Load the page and the button to add a todo appears_
+- _Load the page and the button to add a todo appears  (Tahmina)_
 ---
 ### A user can access the app through internet
 - _As a user I want to see a live demo of the project_
@@ -74,7 +88,7 @@ We will make a simple TODO app to practice Object Oriented JavaScript. The final
 ### HTML and CSS
 - _As a developer I want to create the UI elements and style the page_
 
-- _use the Figma reference to style the file `index.html` by editing the file `style.css`_
+- _use the Figma reference to style the file `index.html` by editing the file `style.css`  (Tahmina)_
 ---
 ### Classes and Objects
 - _As a developer I want to create the classes and the objects to be used in the app_
