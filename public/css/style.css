@@ -57,5 +57,23 @@ body {
   .todo-form form label {
     text-transform: uppercase;
   }
+  .todoitems{
+      margin-top: 20px;
+      border: 1px solid #797979;
+      width: 100%;
+      text-align: left;
+      
+  }
  
-  
+  #todo-list{
+      text-align: left;
+      border: 1px solid #797979;
+     
+  }
+  #todo-list:hover{
+      background: #797979;
+      padding: 10px;
+      border: 1px solid  rgba(49, 43, 49, 0.6);
+
+     
+  }

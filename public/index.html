@@ -6,9 +6,11 @@
   <title>ToDoList</title>
 
   <link rel="stylesheet" href="./css/style.css"/>
-  <link rel="stylesheet" href="css/flexboxgrid.css">
-  <link rel="stylesheet" href="css/fontawesome.css">
-  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="./css/flexboxgrid.css">
+  <link rel="stylesheet" href="./css/fontawesome.css">
+  <link rel="stylesheet" href="./css/all.css">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
 
 </head>
 
@@ -34,13 +36,36 @@
             <label for="Description">Todo Description</label><br />
             <input type="text" name="Description" />
           </div>
+        
+          
           <!-- <div>
             <label for="list">Todo List</label><br />
             <textarea name="list"></textarea>
           </div> -->
           <button type="submit" name="button">Add</button>
         </form>
+        <div class="row center-xs center-sm center-md center-lg">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <table class="todoitems">
+            <thead>
+              <tr>
+                <th>Title </th>
+                <th>Description</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody id="todo-list">
+              <tr>
+                <td>Title </td>
+                <td>Description</td>
+                <td><a href="#" class="btn btn-danger btn-sm delete">X</a></td>
+              </tr>
+            </tbody>
+          </table>
+         </div>
+       </div>
       </div>
+     
     </div>
   </div>
 </section>
