@@ -1,5 +1,7 @@
 # Encapsulation-list-prototype
 
+![GitHub issues](https://img.shields.io/github/issues/bermarte/encapsulation-list-prototype?style=plastic) ![Website](https://img.shields.io/website?style=plastic&up_message=up&url=https%3A%2F%2Fgithub.com%2Fbermarte%2Fencapsulation-list-prototype)![GitHub contributors](https://img.shields.io/github/contributors/bermarte/encapsulation-list-prototype?style=plastic)
+
 The Encapsulation-list-prototype is the last group project of the Encapsulation module. We will make a simple TODO app to practice Object Oriented JavaScript.
 
 
@@ -21,7 +23,7 @@ Group 5 is:
 [discussion](https://github.com/bermarte/encapsulation-list-prototype/discussions/1)  
 [Development strategy](https://github.com/bermarte/encapsulation-list-prototype/blob/master/project-planning/development-strategy.md)
 
- <img src="./public/assets/wireframe.png" alt="figma file" width="500"> 
+ <p style="text-align:center;"><img src="./public/assets/wireframe.png" alt="figma file" width="500"> </p>
 
 ---
 
