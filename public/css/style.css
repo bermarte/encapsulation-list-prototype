@@ -57,5 +57,24 @@ body {
   .todo-form form label {
     text-transform: uppercase;
   }
+  .todoitems{
+      margin-top: 20px;
+      width: 100%;
+      text-align: left;
+      
+  }
  
-  
+  #todo-list tr{
+      text-align: left;
+      border-top: 1px solid #cfc9c9;
+      
+  }
+  #todo-list tr:hover{
+      background: #b1aeae;
+      padding: 10px;
+      border: 1px solid #cfc9c9;
+      ;
+
+     
+  }
+ 
