@@ -3143,7 +3143,7 @@ fieldset:disabled a.btn {
   font-size: 0.825rem;
   line-height: 1.5;
   border-radius: 0;
-  
+  float: right;
   
 }
 
