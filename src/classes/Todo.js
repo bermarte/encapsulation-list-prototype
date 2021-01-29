@@ -1,6 +1,10 @@
 'use strict';
 
 //todo class
+
+
+
+
 export default class Todo {
     constructor(id, title, description){
         this.id = id;
@@ -21,8 +25,19 @@ export default class Todo {
         closeBtn.setAttribute('onclick',toRemove);
         closeBtn.innerHTML = 'X';
         tr.appendChild(closeBtn);
+        tr.setAttribute('contenteditable', true);
         return tr;
-    };
+    }
+    static showAlert(message, className){
+        const div = document.createElement('div');
+        div.className = `alert alert-${className}`;
+        div.appendChild(document.createTextNode(message));
+        const container = document.querySelector('.form-parent');
+        const form = document.querySelector('#todo-form');
+       // console.log('form parent elements: '+ form.parentElement.parentElement.classList)
+        container.insertBefore(div, form);
+        setTimeout(() => document.querySelector('.alert').remove(), 3000)
+    }
     setDescription(text){
         this.description = text;
     };
@@ -30,3 +45,4 @@ export default class Todo {
         this.title = text;
     };
 }
+
