@@ -1,6 +1,10 @@
 'use strict';
 
 //todo class
+
+
+
+
 export default class Todo {
     constructor(id, title, description){
         this.id = id;
@@ -21,6 +25,7 @@ export default class Todo {
         closeBtn.setAttribute('onclick',toRemove);
         closeBtn.innerHTML = 'X';
         tr.appendChild(closeBtn);
+        tr.setAttribute('contenteditable', true);
         return tr;
     };
     setDescription(text){
