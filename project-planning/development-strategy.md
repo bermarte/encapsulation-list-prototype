@@ -41,12 +41,12 @@ We will make a simple TODO app to practice Object Oriented JavaScript. The final
 - [x] Review together the documentation (NB check together the user stories)
 - [x] Create a project board
 - [x] Create a [Figma](https://www.figma.com/file/3sV8V9uzPiZM1mu84wX2yl/Todo?node-id=0%3A1) file
-- [ ] Create milestones from user stories (Patrick)
-- [ ] Create labels from milestones (Patrick)
-- [ ] Create a User story diagram (Patrick?)
-- [ ] Google Meet session #3
-- [ ] Divide tasks/user stories
-
+- [x] Create milestones from user stories
+- [x] Create labels from milestones
+- [x] Create a User story diagram (Patrick)
+- [x] Google Meet session #3
+- [x] Divide tasks/user stories
+- [x] Google Meet session #4
 ---
 
 ### Create a backlog
