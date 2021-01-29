@@ -26,12 +26,12 @@
         </h2>
         <form>
           <div>
-            <label id="title">Todo Title</label><br />
-            <input type="text" name="title" />
+            <label for="title">Todo Title</label><br />
+            <input type="text" id="title" maxlength="60"/>
           </div>
           <div>
-            <label id="description">Todo Description</label><br />
-            <input type="text" name="description" />
+            <label for="description">Todo Description</label><br />
+            <input type="text" id="description" maxlength="60"/>
           </div>
           <button type="submit" name="button">Add</button>
         </form>
@@ -42,11 +42,10 @@
               <tr>
                 <th>Title </th>
                 <th>Description</th>
-                <th></th>
               </tr>
             </thead>
             <tbody id="todo-list">
-              <tr>
+              <!-- <tr>
                 <td>Title </td>
                 <td>Description</td>
                 <td><a href="#" class="btn btn-danger btn-sm delete end">X</a></td>
@@ -65,7 +64,7 @@
                 <td>Title </td>
                 <td>Description</td>
                 <td><a href="#" class="btn btn-danger btn-sm delete end">X</a></td>
-              </tr>
+              </tr> -->
             </tbody>
           </table>
          </div>
@@ -76,25 +75,8 @@
   </div>
 </section>
 
-
+<!-- initialize your application -->
+<script type="module" src="../src/init.js"></script>
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--
-
--->
-

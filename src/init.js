@@ -1,7 +1,5 @@
 'use strict';
 
-import { createNewListHandler } from './handlers/create-new-list.js'
+//import listeners and DOM elements
+import './listeners/add.js';
 
-
-document.getElementById('list-name-input')
-  .addEventListener('keyup', createNewListHandler);
