@@ -10,7 +10,7 @@ We will make a simple TODO app to practice Object Oriented JavaScript. The final
 
  <p style="text-align:center;"><img src="../public/assets/Use-case.svg" alt="use case diagram file" width="500"></p>
 
-[Story Dependency Diagram](../public/assets/Use-case.svg)
+[Story Dependency Diagram/UML diagram](../public/assets/Use-case.svg)
 
 ---
 
