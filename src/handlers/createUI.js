@@ -12,7 +12,6 @@ export function createUI(e) {
     if(title === '' || message === ''){
         // a failing message sends arguments to the showAlert method of the VALIDATOR class
         validator.showAlert('please fill in all fields', 'danger');
-   
     }
     else{
        //create the object and add it to the DOM
