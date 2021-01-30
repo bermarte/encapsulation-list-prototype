@@ -21,7 +21,7 @@ Group 5 is:
 [discussion](https://github.com/bermarte/encapsulation-list-prototype/discussions/1)  
 [Development strategy](https://github.com/bermarte/encapsulation-list-prototype/blob/master/project-planning/development-strategy.md)
 
- <img src="./public/assets/wireframe.png" alt="figma file" width="500" style="text-align:center">
+ <img src="./public/assets/wireframe.png" alt="figma file" width="800">
 
 ---
 
