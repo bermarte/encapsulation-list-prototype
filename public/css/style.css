@@ -73,3 +73,8 @@ body {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+
+#deleteAll:hover,
+#save:hover{
+  cursor: pointer;
+}
