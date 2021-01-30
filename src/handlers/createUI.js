@@ -5,10 +5,8 @@ import validator from '../classes/validator.js'
 
 export function createUI(e) {
     e.preventDefault();
-    console.log('create UI element');
     const title = document.querySelector('#title').value;
     const message = document.querySelector('#description').value;
-    console.log(title.length);
     //create a todo object and add it to the DOM
     const container = document.querySelector('#todo-list');
     // check if the fields are empty
@@ -18,9 +16,10 @@ export function createUI(e) {
    
     }
     else{
-    const todo = new Todo(1, title, message);
-    container.appendChild(todo);
-   // validator.showAlert('Item added', 'success');
+       //create the object and add it to the DOM
+       const todo = new Todo(Date.now().toString(), title, message);
+       container.appendChild(todo.printObj());
     }
   
 }
+

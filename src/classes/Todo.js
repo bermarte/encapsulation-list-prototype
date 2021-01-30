@@ -1,10 +1,6 @@
 'use strict';
 
 //todo class
-
-
-
-
 export default class Todo {
     constructor(id, title, description){
         this.id = id;
@@ -12,6 +8,7 @@ export default class Todo {
         this.description = description;
         //build the UI
         const tr = document.createElement('tr');
+        tr.id = this.id;
         const tdTitle = document.createElement('td');
         tdTitle.innerHTML = this.title;
         tr.appendChild(tdTitle);
@@ -25,15 +22,13 @@ export default class Todo {
         closeBtn.setAttribute('onclick',toRemove);
         closeBtn.innerHTML = 'X';
         tr.appendChild(closeBtn);
+        //the text field is editable
         tr.setAttribute('contenteditable', true);
-        return tr;
+        this.ui = tr;
     }
-   
-    setDescription(text){
-        this.description = text;
-    };
-    setTitle(text){
-        this.title = text;
-    };
+    //returns the UI element
+    printObj(){
+        return this.ui;
+    }
 }
 
