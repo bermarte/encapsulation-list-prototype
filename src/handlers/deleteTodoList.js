@@ -8,4 +8,6 @@ export function deleteAll() {
     for (var x = rowCount - 1; x >= 0; x--) {
         tbody.removeChild(tableRows[x]);
     }
+    //empty localStorage
+    localStorage.clear();
 }
