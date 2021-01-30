@@ -9,8 +9,8 @@ The Encapsulation-list-prototype is the last group project of the Encapsulation 
 Group 5 is:
 
 - [Bermarte](https://github.com/bermarte)
+- [Tahmina](https://github.com/tahminarasoli)
 - [Patrick](https://github.com/22count22)
-- [Tahmina](https://github.com/tahminarasoli/)
 
 ---
 
@@ -21,7 +21,7 @@ Group 5 is:
 [discussion](https://github.com/bermarte/encapsulation-list-prototype/discussions/1)  
 [Development strategy](https://github.com/bermarte/encapsulation-list-prototype/blob/master/project-planning/development-strategy.md)
 
- <img src="./public/assets/wireframe.png" alt="figma file" width="500" style="text-align:center">
+ <img src="./public/assets/wireframe.png" alt="figma file" width="800">
 
 ---
 
