@@ -9,8 +9,8 @@ The Encapsulation-list-prototype is the last group project of the Encapsulation 
 Group 5 is:
 
 - [Bermarte](https://github.com/bermarte)
+- [Tahmina](https://github.com/tahminarasoli)
 - [Patrick](https://github.com/22count22)
-- [Tahmina](https://github.com/tahminarasoli/)
 
 ---
 
