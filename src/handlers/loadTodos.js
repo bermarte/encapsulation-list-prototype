@@ -5,7 +5,12 @@ import {
   logger
 } from '../../lib/logger.js';
 
-
+/**
+ * 
+ *  It checks if there are any items in the localStorage
+ *  and creates UI elements (todo's elements) from them.
+ *  Then it adds them to the DOM.
+ */
 export function loadStorage() {
   for (var i = 0; i < localStorage.length; i++) {
     var key = localStorage.key(i);

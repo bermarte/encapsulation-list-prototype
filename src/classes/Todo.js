@@ -3,13 +3,29 @@
 import { logger } from '../../lib/logger.js';
 
 //todo class
+/**
+ *  The class Todo will create a todo object
+ *  with an id(number), a title(string) and a description(text).
+ * 
+ *  A todo element is a reminder describing something to be done
+ *  once is done it can be removed.
+ * 
+ * @param  {string} id -unique id of the todo object
+ * @param  {string} title - the title of the todo object
+ * @param  {string} description -the description of the todo object
+ */
 export default class Todo {
     constructor(id, title, description) {
         this.id = id;
         this.title = title;
         this.description = description;
     }
-    //returns the UI element
+
+    /**
+     * Renders a view containing a piece of the UI;
+     * returns the UI element.
+     *
+     */
     render() {
         //build the UI
         const tr = document.createElement('tr');

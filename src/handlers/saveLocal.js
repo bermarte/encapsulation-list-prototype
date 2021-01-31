@@ -2,7 +2,12 @@
 
 import { logger } from '../../lib/logger.js';
 
-
+/**
+ * 
+ *  It checks if there are any todo's UI elements in the DOM
+ *  and save them in the localStorage.
+ * 
+ */
 export function save(){
     //empty localStorage
     localStorage.clear();

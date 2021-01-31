@@ -6,7 +6,13 @@ import {
     logger
 } from '../../lib/logger.js';
 
-
+/**
+ *  creates a todo object and
+ *  creates a piece of UI calling the render function in the object
+ *  and appends it to the DOM.
+ * 
+ * @param  {event} e
+ */
 export function createUI(e) {
     e.preventDefault();
     const title = document.querySelector('#title').value;
