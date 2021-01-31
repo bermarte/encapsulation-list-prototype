@@ -2,6 +2,8 @@
 
 
 export function save(){
+    //empty localStorage
+    localStorage.clear();
     const obj = {};
     const tbody = document.querySelector('#todo-list');
     const tableRows = tbody.getElementsByTagName('tr');

@@ -1,7 +1,7 @@
 'use strict';
 
 
-export default class validator {
+export default class Validator {
   static showAlert(message, className){
         const div = document.createElement('div');
         div.className = `alert alert-${className}`;
