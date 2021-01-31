@@ -1,7 +1,16 @@
 'use strict';
 
+import { logger } from '../../lib/logger.js';
 
+/**
+ * 
+ *  It checks if there are any todo's UI elements in the DOM
+ *  and save them in the localStorage.
+ * 
+ */
 export function save(){
+    //empty localStorage
+    localStorage.clear();
     const obj = {};
     const tbody = document.querySelector('#todo-list');
     const tableRows = tbody.getElementsByTagName('tr');
@@ -14,7 +23,11 @@ export function save(){
         obj.title = td[0].innerHTML;
         obj.description = td[1].innerHTML;
         //serialization
-        const ser = JSON.stringify(obj);
-        localStorage.setItem(obj.id, ser);
+        const todo = JSON.stringify(obj);
+        localStorage.setItem(obj.id, todo);
     }
 }
+
+logger.push({
+    handler: 'save'
+});
