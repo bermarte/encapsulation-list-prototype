@@ -1,5 +1,7 @@
 'use strict';
 
+import { logger } from '../../lib/logger.js';
+
 
 export function save(){
     //empty localStorage
@@ -16,7 +18,11 @@ export function save(){
         obj.title = td[0].innerHTML;
         obj.description = td[1].innerHTML;
         //serialization
-        const ser = JSON.stringify(obj);
-        localStorage.setItem(obj.id, ser);
+        const todo = JSON.stringify(obj);
+        localStorage.setItem(obj.id, todo);
     }
 }
+
+logger.push({
+    handler: 'save'
+});

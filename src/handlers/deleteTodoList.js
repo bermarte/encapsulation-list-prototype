@@ -1,5 +1,7 @@
 'use strict';
 
+import { logger } from '../../lib/logger.js';
+
 export function deleteAll() {
     const tbody = document.querySelector('#todo-list');
     var tableRows = tbody.getElementsByTagName('tr');
@@ -11,3 +13,7 @@ export function deleteAll() {
     //empty localStorage
     localStorage.clear();
 }
+
+logger.push({
+    handler: 'deleteAll'
+});

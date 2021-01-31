@@ -1,5 +1,6 @@
 'use strict';
 
+import { logger } from '../../lib/logger.js';
 
 export default class Validator {
   static showAlert(message, className){
@@ -13,3 +14,7 @@ export default class Validator {
         setTimeout(() => document.querySelector('.alert').remove(), 3000)
     }
 }
+
+logger.push({
+  class: 'Validator'
+});
