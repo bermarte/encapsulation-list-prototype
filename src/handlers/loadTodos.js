@@ -13,6 +13,6 @@ export function loadStorage(){
         const message = des.description;
         const container = document.querySelector('#todo-list');
         const todo = new Todo(id, title, message);
-        container.appendChild(todo.printObj());
+        container.appendChild(todo.render());
       }
 }

@@ -16,7 +16,7 @@ export function createUI(e) {
     else{
        //create the object and add it to the DOM
        const todo = new Todo(Date.now().toString(), title, message);
-       container.appendChild(todo.printObj());
+       container.appendChild(todo.render());
     }
   
 }

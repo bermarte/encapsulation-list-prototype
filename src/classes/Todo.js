@@ -6,6 +6,9 @@ export default class Todo {
         this.id = id;
         this.title = title;
         this.description = description;
+    }
+    //returns the UI element
+    render(){
         //build the UI
         const tr = document.createElement('tr');
         tr.id = this.id;
@@ -24,11 +27,7 @@ export default class Todo {
         tr.appendChild(closeBtn);
         //the text field is editable
         tr.setAttribute('contenteditable', true);
-        this.ui = tr;
-    }
-    //returns the UI element
-    printObj(){
-        return this.ui;
+        return tr;
     }
 }
 
