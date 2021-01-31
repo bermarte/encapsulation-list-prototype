@@ -78,3 +78,8 @@ body {
 #save:hover{
   cursor: pointer;
 }
+
+#save,
+#deleteAll{
+  font-size: small; 
+}

@@ -9,7 +9,7 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pHackYourFutureBelgium/starter-encapsulation-week-1.git"
+    "url": "git+https://github.com/HackYourFutureBelgium/starter-encapsulation-week-1.git"
   },
   "author": "group 5 HYF 2021",
   "license": "MIT",
