@@ -2,14 +2,14 @@
   "name": "encapsulation-list-prototype",
   "version": "1.0.0",
   "description": "a simple todo app",
-  "main": "server.js",  
+  "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "document": "node ./lib/document.js"
+    "start": "node server.js"
   },
+  "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HackYourFutureBelgium/starter-encapsulation-week-1.git"
+    "url": "git+https://github.com/pHackYourFutureBelgium/starter-encapsulation-week-1.git"
   },
   "author": "group 5 HYF 2021",
   "license": "MIT",

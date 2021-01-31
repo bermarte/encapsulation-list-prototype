@@ -82,11 +82,9 @@ After installing the dev dependencies you can start writing and running tests fo
 - _Individually_: You can run the tests in a single `.spec.js` using the VSCode debugger. Open the spec file you want to run, open the debugger pane, select the "current .spec.js file" option, then start debugging!
 - _All at Once_: You can also run every `.spec.js` in the `/src` directory at the same time using `npm run test`. When you run the `npm run test` command all test results will be logged to the console, and a report file will be generated next to each spec file. These report files will be helpful when reviewing PRs to the `main`/`master` branch.
 
-### Continuous Integration
-
-This repository comes with a GitHub Action to re-build the documentation and run all the tests whenever you push to `master`/`main`, and each time you open a PR to `master`/`main`. You don't need to do anything, it works!
-
-Having this CI action means that your master branch will always have the most up-to-date documentation, and that you can easily check test results when reviewing Pull Requests.
+### Create the documentation (DOCS.md)
+- `npm install`
+- `node ./lib/document.js`
 
 </details>
 
