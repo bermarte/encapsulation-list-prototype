@@ -21,7 +21,9 @@ export function createUI(e) {
     // check if the fields are empty
     if (title === '' || message === '') {
         // a failing message sends arguments to the showAlert method of the VALIDATOR class
-        Validator.showAlert('please fill in all fields', 'danger');
+        const validator = new Validator();
+        // Validator class instantiation.
+        validator.showAlert('please fill in all fields', 'danger');
     } else {
         //create the object and add it to the DOM
         const todo = new Todo(Date.now().toString(), title, message);
