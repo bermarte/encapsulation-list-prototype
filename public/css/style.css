@@ -64,7 +64,7 @@ body {
 #todo-list tr:hover {
   background: #b1aeae;
   padding: 10px;
-  border: 1px solid #cfc9c9;
+  border-top: 1px solid #cfc9c9;
 }
 
 #title,
@@ -82,4 +82,9 @@ body {
 #save,
 #deleteAll{
   font-size: small; 
+}
+
+.text-field{
+  background: transparent;
+  border: none; 
 }
