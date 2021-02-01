@@ -12,9 +12,30 @@ import {
  *  Then it adds them to the DOM.
  */
 export function loadStorage() {
-  for (var i = localStorage.length-1; i >= 0; i--) {
-    var key = localStorage.key(i);
-    var value = localStorage.getItem(key);
+
+  //localStore's pairs are not sorted
+  function SortLocalStorage() {
+    if (localStorage.length > 0) {
+      var localStorageArray = new Array();
+      for (let i = 0; i < localStorage.length; i++) {
+        localStorageArray[i] = localStorage.key(i) + localStorage.getItem(localStorage.key(i));
+      }
+    }
+    //create an array of strings from localStorage
+    //and sort it
+    var sortedArray = localStorageArray.sort();
+    return sortedArray;
+  }
+
+  const sorted = SortLocalStorage();
+
+  for (let i = 0; i < localStorage.length; i++) {
+
+    //get the index from the sorted array element
+    const sep = sorted[i].indexOf("{");
+    const index = sorted[i].substring(0, sep);
+    //get the item using the index
+    var value = localStorage.getItem(index);
     //deserialization 
     const des = JSON.parse(value);
     const id = des.id;
@@ -23,9 +44,11 @@ export function loadStorage() {
     const container = document.querySelector('#todo-list');
     const todo = new Todo(id, title, message);
     container.appendChild(todo.render());
+
     logger.push({
       object: 'todo'
     });
+
   }
 }
 
