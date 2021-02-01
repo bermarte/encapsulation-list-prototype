@@ -5,7 +5,6 @@
 
 import Todo from '../classes/Todo.js';
 import Validator from '../classes/Validator.js';
-import { createUI } from '../handlers/createUI.js';
 
 //Unit test with Mocha and Chai
 const assert = chai.assert;
