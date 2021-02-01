@@ -8,7 +8,7 @@ We will make a simple TODO app to practice Object Oriented JavaScript. The final
 
 ## User Story Dependencies
 
- <p style="text-align:center;"><img src="../public/assets/Use-case.svg" alt="use case diagram file" width="500"></p>
+ <p style="text-align:center;"><img src="../public/assets/Use-case.svg" alt="use case diagram file" width="800"></p>
 
 [Story Dependency Diagram/UML diagram](../public/assets/Use-case.svg)
 
@@ -16,7 +16,7 @@ We will make a simple TODO app to practice Object Oriented JavaScript. The final
 
 ## WIREFRAME
 
- <p style="text-align:center;"><img src="../public/assets/wireframe.png" alt="figma file" width="500"></p>
+ <p style="text-align:center;"><img src="../public/assets/wireframe.png" alt="figma file" width="800"></p>
 
 [wireframe file](../public/assets/wireframe.png)
 
