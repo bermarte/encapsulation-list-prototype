@@ -57,6 +57,9 @@ This repository comes with some nice extras like documentation, but in it's hear
 
 To run this project locally you will need to open `index.html` in your browser using a local server. LiveServer, `http-server`, `study-lenses`, or any other local static server will work.
 
+- `npm install`
+- run `study`
+
 ### Deployment
 
 Push your changes, turn on GitHub pages, that's all!
@@ -71,20 +74,21 @@ There are no dependencies needed to run the website, everything is prepared to w
 
 ### Documentation
 
-To document your project you will need to write a JSDoc comment for each function in the `/handlers`, `/listeners` and `/logic`. You will also want to add an entry to the JSDoc in `/data.js` for each property you store in the object.
+To document your project you will need to write a JSDoc comment for each function in the `/handlers`, `/listeners` and `/logic`. You can also want to add an entry to the JSDoc in `/data.js` for each property you store in the object.
 
 The JSDoc comments you write in the `/src` folder will be used to re-write the `DOCS.md` file each time you run `npm run document` from the root of your project.
 
-### Testing
-
-After installing the dev dependencies you can start writing and running tests for your .js files. Careful! In this project starter you can only test code that does not interact with the DOM, so only the `/logic` and `/view` functions will be testable (`/view` functions will be tested in Node.js using `jsdom`). There are two options for running tests:
-
-- _Individually_: You can run the tests in a single `.spec.js` using the VSCode debugger. Open the spec file you want to run, open the debugger pane, select the "current .spec.js file" option, then start debugging!
-- _All at Once_: You can also run every `.spec.js` in the `/src` directory at the same time using `npm run test`. When you run the `npm run test` command all test results will be logged to the console, and a report file will be generated next to each spec file. These report files will be helpful when reviewing PRs to the `main`/`master` branch.
-
-### Create the documentation (DOCS.md)
+##### Create the documentation (DOCS.md)
 - `npm install`
 - `node ./lib/document.js`
+
+### Testing
+
+open `public/test.html`
+<!-- After installing the dev dependencies you can start writing and running tests for your .js files. Careful! In this project starter you can only test code that does not interact with the DOM, so only the `/logic` and `/view` functions will be testable (`/view` functions will be tested in Node.js using `jsdom`). There are two options for running tests:
+
+- _Individually_: You can run the tests in a single `.spec.js` using the VSCode debugger. Open the spec file you want to run, open the debugger pane, select the "current .spec.js file" option, then start debugging!
+- _All at Once_: You can also run every `.spec.js` in the `/src` directory at the same time using `npm run test`. When you run the `npm run test` command all test results will be logged to the console, and a report file will be generated next to each spec file. These report files will be helpful when reviewing PRs to the `main`/`master` branch. -->
 
 </details>
 
