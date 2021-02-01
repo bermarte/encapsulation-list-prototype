@@ -26,7 +26,6 @@ export default class Validator {
           setTimeout(() => document.querySelector('.alert').remove(), 3000)
       }
 }
-
 logger.push({
   class: 'Validator'
 });
