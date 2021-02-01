@@ -20,8 +20,8 @@ export function save(){
         obj.id = tableRows[x].id;
         const td = tableRows[x].getElementsByTagName('td');
         //store the text of the 2 tds in the todo
-        obj.title = td[0].innerHTML;
-        obj.description = td[1].innerHTML;
+        obj.title = td[0].childNodes[0].value;
+        obj.description = td[1].childNodes[0].value;
         //serialization
         const todo = JSON.stringify(obj);
         localStorage.setItem(obj.id, todo);

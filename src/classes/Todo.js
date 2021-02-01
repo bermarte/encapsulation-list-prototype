@@ -28,13 +28,24 @@ export default class Todo {
      */
     render() {
         //build the UI
-        const tr = document.createElement('tr');
+        const tr = document.createElement('TR');
+        tr.style.border = "1px solid #cfc9c9";
         tr.id = this.id;
-        const tdTitle = document.createElement('td');
-        tdTitle.innerHTML = this.title;
+        const tdTitle = document.createElement('TD');
+        const txtInput = document.createElement("INPUT");
+        txtInput.setAttribute("type", "text");
+        txtInput.setAttribute("maxlength", 60);
+        txtInput.classList.add('text-field');
+        txtInput.value = this.title;
+        tdTitle.appendChild(txtInput);
         tr.appendChild(tdTitle);
-        const tdDescription = document.createElement('td');
-        tdDescription.innerHTML = this.description;
+        const tdDescription = document.createElement('TD');
+        const txtDes = document.createElement("INPUT");
+        txtDes.setAttribute("type", "text");
+        txtDes.setAttribute("maxlength", 60);
+        txtDes.classList.add('text-field');
+        txtDes.value = this.description;
+        tdDescription.appendChild(txtDes);
         tr.appendChild(tdDescription);
         const closeBtn = document.createElement('a');
         closeBtn.classList.add('btn', 'btn-danger', 'btn-sm', 'delete', 'end');
