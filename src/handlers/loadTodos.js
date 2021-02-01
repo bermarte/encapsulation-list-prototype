@@ -12,7 +12,7 @@ import {
  *  Then it adds them to the DOM.
  */
 export function loadStorage() {
-  for (var i = 0; i < localStorage.length; i++) {
+  for (var i = localStorage.length-1; i >= 0; i--) {
     var key = localStorage.key(i);
     var value = localStorage.getItem(key);
     //deserialization 
